@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jun 06 15:39:56 2022
+# Make data base, printed on Mon Jun 06 15:56:56 2022
 
 # Variables
 
@@ -33,7 +33,7 @@ K6_PROMETHEUS_REMOTE_URL = http://localhost:9090/api/v1/write
 # environment
 LOCALAPPDATA = C:\Users\ibadi\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d3458b97-f00d-4227-b7bb-94be471c4f3d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-081ce918-fe0a-4b4d-bb39-da22eff6e25d-sock
 # environment
 VSCODE_CWD = C:\Users\ibadi\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -55,7 +55,7 @@ REACT_APP_ENV = local
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17692_SMZENWCEWTWPBSMW
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_38084_CHNYLBSJQYMKNRGK
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -117,7 +117,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 17692
+VSCODE_PID = 38084
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -277,9 +277,9 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
 
 # Directories
 
-# . (key c:/Users/ibadi/Documents/Ujian/github/ecommerce, mtime 1654504794): 24 files, no impossibilities.
+# . (key c:/Users/ibadi/Documents/Ujian/github/ecommerce, mtime 1654505270): 25 files, no impossibilities.
 
-# 24 files, no impossibilities in 1 directories.
+# 25 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -311,8 +311,7 @@ migrate_schema:
 	go run ./cmd/migration/main.go
 
 # Not a target:
-.DEFAULT: 
-
+.DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -337,12 +336,12 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 30 / storage = 255 B / avg = 8 B
-# current buf: size = 8174 B / used = 255 B / count = 30 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 31 / storage = 260 B / avg = 8 B
+# current buf: size = 8174 B / used = 260 B / count = 31 / avg = 8 B
 
-# strcache performance: lookups = 39 / hit rate = 23%
+# strcache performance: lookups = 40 / hit rate = 22%
 # hash-table stats:
-# Load=30/8192=0%, Rehash=0, Collisions=0/39=0%
-# Finished Make data base on Mon Jun 06 15:39:56 2022
+# Load=31/8192=0%, Rehash=0, Collisions=0/40=0%
+# Finished Make data base on Mon Jun 06 15:56:56 2022
 
  

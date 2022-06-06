@@ -49,14 +49,14 @@ visit http://localhost:9090/playground
 ### Struktur folder ecommerce
 
 ```
-├── bin
 ├── cmd
 │  ├── app
 │  └── migration
 ├── config
-├── docker
+├── documentation     # Documentation File
 ├── ent
 ├── graph
+├── migration         # Sql Migration File
 ├── pkg
 │  ├── adapter
 │  │ ├── controller   # Controller
