@@ -1,0 +1,348 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Jun 06 15:39:56 2022
+
+# Variables
+
+# environment
+GO111MODULE = on
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_211
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\ibadi
+# environment
+PYSPARK_PYTHON = python
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+HBASE_HOME = C:\Users\ibadi\Documents\hbase-2.4.9
+# environment
+K6_PROMETHEUS_REMOTE_URL = http://localhost:9090/api/v1/write
+# environment
+LOCALAPPDATA = C:\Users\ibadi\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d3458b97-f00d-4227-b7bb-94be471c4f3d-sock
+# environment
+VSCODE_CWD = C:\Users\ibadi\AppData\Local\Programs\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# environment
+CMDER_ROOT = C:\Users\ibadi\cmder
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# environment
+GOPATH = C:\Users\ibadi\go
+# environment
+REACT_APP_ENV = local
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17692_SMZENWCEWTWPBSMW
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+ELASTIC_APM_SERVICE_NAME = ms-chub-consent-management
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\ibadi\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\ibadi\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\ibadi\OneDrive
+# makefile
+CURDIR := c:/Users/ibadi/Documents/Ujian/github/ecommerce
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SPARK_HOME = C:\apps\spark-3.2.0-bin-hadoop3.2
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+GOLAND = C:\Program Files\JetBrains\GoLand 2021.3\bin;
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# environment
+PYSPARK_DRIVER_PYTHON = jupyter
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 17692
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# environment
+ELASTIC_APM_SERVER_URL = http://172.18.98.76:8200
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+HADOOP_HOME = C:\apps\spark-3.2.0-bin-hadoop3.2
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ANDROID_SDK_ROOT = C:\Users\ibadi\android-sdk
+# environment
+JD2_HOME = C:\Users\ibadi\AppData\Local\JDownloader 2.0
+# environment
+ONEDRIVECONSUMER = C:\Users\ibadi\OneDrive
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := C:/Program Files/Git/bin/sh.exe
+# environment
+CLASSPATH = .;
+# environment
+HOMEPATH = \Users\ibadi
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+APP_ENV = test
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\ibadi\cmder\cmder;C:\Program Files\Kubernetes\Minikube;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Git\bin;C:\Program Files\PostgreSQL\14\bin;C:\apps\spark-3.2.0-bin-hadoop3.2\bin;C:\Users\ibadi\anaconda3\Library\bin;C:\Users\ibadi\anaconda3\Lib\site-packages\zmq;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\TortoiseHg\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\apps\apache-jmeter-5.4.3\bin;C:\Program Files\Go\bin;C:\Program Files (x86)\dotnet\;C:\Users\ibadi\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\ibadi\AppData\Local\Programs\Python\Python37\;C:\Users\ibadi\AppData\Local\Microsoft\WindowsApps;C:\Users\ibadi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ibadi\cmder\cmder;C:\Users\ibadi\go\bin;C:\Program Files\Go\bin;C:\tools\mysql\current\bin;C:\Program Files\JetBrains\DataGrip 2021.3.1\bin;;C:\Program Files\JetBrains\GoLand 2021.3\bin;;C:\Users\ibadi\Documents\hbase-2.4.9\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\ibadi\AppData\Roaming\npm;C:\Users\ibadi\AppData\Local\Microsoft\WindowsApps;C:\Users\ibadi\go\bin;C:\msys64\mingw64\bin;C:\apps\dartsdk-windows-x64-release\dart-sdk\bin;C:\apps\flutter_windows_2.10.4-stable\flutter\bin;C:\apps\ngrok-v3-stable-windows-amd64;
+# environment
+COMPUTERNAME = LAPTOP-DMD2EMO4
+# default
+MAKEFILES := 
+# environment
+DB_URL = postgres://postgres:root$@localhost:5432/public
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132828196511160478
+# environment
+LOGONSERVER = \\LAPTOP-DMD2EMO4
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = ibadi
+# environment
+GOPRIVATE = bitbucket.org/bridce/*
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+NO_PROXY = *.local,172.*,*bri.co.id,192.168.99.100,localhost
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+API_URL =  http://172.18.224.215:31979
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = LAPTOP-DMD2EMO4
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := start
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+STAGE = local
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-DMD2EMO4
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+PUBLIC = C:\Users\Public
+# environment
+%CONEMUDIR% = [cmder_root]\vendor\conemu-maximus5
+# environment
+APPDATA = C:\Users\ibadi\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USE_PGXS = 1
+# environment
+GOMODCACHE = C:\Users\ibadi\go\pkg\mod
+# environment
+DATAGRIP = C:\Program Files\JetBrains\DataGrip 2021.3.1\bin;
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+GOLANG_APP_ENV = local
+# environment
+PYSPARK_DRIVER_PYTHON_OPTS = notebook
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\ibadi\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\606d56095d40790ce9c3449755012e88-1.67.2-main-sock
+# environment
+DOCKER_HOST_IP = 127.0.0.1
+# environment
+GOPROXY = https://goproxy.cn
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 6001
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+# variable set hash-table stats:
+# Load=128/1024=12%, Rehash=0, Collisions=18/154=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/ibadi/Documents/Ujian/github/ecommerce, mtime 1654504794): 24 files, no impossibilities.
+
+# 24 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+start:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 3):
+	air
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-05 12:06:53
+#  File has been updated.
+#  Successfully updated.
+
+migrate_schema:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 7):
+	go run ./cmd/migration/main.go
+
+# Not a target:
+.DEFAULT: 
+
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: start migrate_schema
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/19=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 30 / storage = 255 B / avg = 8 B
+# current buf: size = 8174 B / used = 255 B / count = 30 / avg = 8 B
+
+# strcache performance: lookups = 39 / hit rate = 23%
+# hash-table stats:
+# Load=30/8192=0%, Rehash=0, Collisions=0/39=0%
+# Finished Make data base on Mon Jun 06 15:39:56 2022
+
+ 

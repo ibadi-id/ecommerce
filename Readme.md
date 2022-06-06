@@ -1,6 +1,6 @@
 # Ecommerce Graphql Golang
 
-Micro service solution for simple e-commerce system, dengan menggunakan<strong>golang</strong>,<strong>Graphql</strong> dengann orm menggunakan <strong>Ent</strong>
+Micro service solution for simple e-commerce system, dengan menggunakan <strong>golang</strong>, <strong>Graphql</strong> dan orm menggunakan <strong>Ent</strong>
 
 
 ## Table of Contents
