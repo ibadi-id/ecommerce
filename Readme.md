@@ -7,7 +7,7 @@ Micro service solution for simple e-commerce system, dengan menggunakan <strong>
 
 * [Technology](#technology)
 * [Installation](#installation)
-* [Struktur folder](#folder)
+* [Folder Structure](#folder)
 * [Documentation](#documentation)
 * [Routing](#routing)
 * [Example Query](#example)
@@ -16,11 +16,12 @@ Micro service solution for simple e-commerce system, dengan menggunakan <strong>
 ## Technology
 
 - **Clean Architecture**
-- **Go Languange**: Build fast, reliable, and efficient software at scale [more](https://go.dev/)
+- **Go Languange**: Build fast, reliable, and efficient software at scale. [more](https://go.dev/)
 - **GraphQL API**: Get many resources in a single request and [more](https://graphql.org/)
 - **ORM - ENT**: Simple, yet powerful ORM for modeling and querying data. [more](https://entgo.io/)
 - **Route - Echo**: High performance, extensible, minimalist Go web framework[more](https://echo.labstack.com/)
 - **Dockerize**: Optimized for deployments using Docker
+- **Hot Reload - Air**: Live reload for Go apps. [more](https://github.com/cosmtrek/air)
 
 ## Installation
 
@@ -105,7 +106,7 @@ Postman : ./documentation/Ecommerce.postman_collection.json
 - Test Playground Graphql
 </details>
 </details>
-
+<br>
 
 ## Example
 
