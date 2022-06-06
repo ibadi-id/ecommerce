@@ -1,0 +1,340 @@
+{
+	"info": {
+		"_postman_id": "c3aacde1-3ab4-4671-95d7-6b88041be8dc",
+		"name": "Ecommerce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18514039"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query customer{\r\n  customer(id:1){\r\n    name\r\n    email\r\n    phone\r\n    createdAt\r\n    updatedAt\r\n  }\r\n}",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "{{host}}/query",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query customers{\r\n  customers{\r\n    id\r\n    name\r\n    email\r\n    phone\r\n    createdAt\r\n    updatedAt\r\n  }\r\n}",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "{{host}}/query",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "mutation createCustomer{\r\n  createCustomer(input:{\r\n    name:\"dona\",\r\n    phone:\"085161343410\",\r\n    email:\"test@gmail.com\"\r\n  }){\r\n    name\r\n    id\r\n    email\r\n    phone\r\n    createdAt\r\n    updatedAt\r\n  }\r\n}",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "{{host}}/query",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "mutation updateCustomer{\r\n  updateCustomer(input:{\r\n    id:2,\r\n    name:\"robbi ibadi\",\r\n  }){\r\n    name\r\n    id\r\n    email\r\n    phone\r\n    createdAt\r\n    updatedAt\r\n  }\r\n}",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "{{host}}/query",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "Product",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query product{\r\n  product(id:1){\r\n    name\r\n    descriptions\r\n    price\r\n    sku\r\n    stock\r\n    createdAt\r\n    updatedAt\r\n  }\r\n}",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "{{host}}/query",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Product",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query products {\r\n  products{\r\n    name\r\n    descriptions\r\n    price\r\n    sku\r\n    stock\r\n    createdAt\r\n    updatedAt\r\n  }\r\n}",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "{{host}}/query",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Product",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "mutation createProduct{\r\n  createProduct(input:{\r\n    name:\"Tas Cowok\",\r\n    descriptions:\"Tas Cowok Fashion\",\r\n    sku:\"ABC123\",\r\n    stock:10,\r\n    price:10000\r\n  }){\r\n    name\r\n    id\r\n    price\r\n    stock\r\n    descriptions\r\n    createdAt\r\n    updatedAt\r\n  }\r\n}",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "{{host}}/query",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Product",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "mutation updateProduct{\r\n  updateProduct(input:{\r\n    id: 140,\r\n    name:\"Tas Cewek\",\r\n    descriptions:\"Tas Cewek Fashion\"\r\n  }){\r\n    name\r\n    id\r\n    price\r\n    stock\r\n    descriptions\r\n    createdAt\r\n    updatedAt\r\n  }\r\n}",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "{{host}}/query",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Order",
+			"item": [
+				{
+					"name": "Order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query order{\r\n  order(id:8){\r\n    customerID\r\n    shippingAddress\r\n    amount\r\n    items{\r\n      id\r\n      quantity\r\n      productID\r\n    }\r\n    createdAt\r\n    updatedAt\r\n  }\r\n}",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "{{host}}/query",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query orders{\r\n  orders{\r\n    id\r\n    customerID\r\n    shippingAddress\r\n    amount\r\n    items{\r\n      id\r\n      quantity\r\n      productID\r\n    }\r\n    createdAt\r\n    updatedAt\r\n  }\r\n}",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "{{host}}/query",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "mutation createOrder{\r\n  createOrder(input:{\r\n    shippingAddress:\"Padang Timur\",\r\n    customerID:2\r\n  },\r\n    items:[{\r\n      quantity:2,\r\n      productID:1\r\n    },\r\n    {\r\n      quantity:1,\r\n      productID:2\r\n    }\r\n    ]\r\n  ){\r\n    amount\r\n    customerID\r\n    items{\r\n      id\r\n      quantity\r\n      productID\r\n    }\r\n  }\r\n}",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "{{host}}/query",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "mutation updateOrder{\r\n  updateOrder(input:{\r\n    id:1,\r\n    shippingAddress:\"Padang Barat\",\r\n    customerID:2\r\n  },\r\n    items:[{\r\n      quantity:2,\r\n      productID:1\r\n    },\r\n    {\r\n      quantity:1,\r\n      productID:2\r\n    }\r\n    ]\r\n  ){\r\n    amount\r\n    customerID\r\n    items{\r\n      id\r\n      quantity\r\n      productID\r\n    }\r\n  }\r\n  \r\n}",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "{{host}}/query",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "http://localhost:9090",
+			"type": "string"
+		}
+	]
+}

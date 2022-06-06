@@ -1,0 +1,13 @@
+# GraphQL schema example
+#
+# https://gqlgen.com/getting-started/
+
+interface Node {
+    id: ID!
+}
+
+type Query {
+    node(id: ID!): Node
+}
+
+type Mutation

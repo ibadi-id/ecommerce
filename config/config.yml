@@ -1,0 +1,14 @@
+database:
+  user: root
+  password: root
+  net: tcp
+  addr: localhost:3306
+  dbname: ecommerce
+  allowNativePasswords: true
+  params:
+    parseTime: true
+    charset: utf8mb4
+    loc: Asia/Jakarta
+
+server:
+  address: 9090
