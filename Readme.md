@@ -2,6 +2,9 @@
 
 Micro service solution for simple e-commerce system, dengan menggunakan <strong>golang</strong>, <strong>Graphql</strong> dan orm menggunakan <strong>Ent</strong>
 
+Screenshot:
+
+![Alt text](./documentation/ecommerce.gif?raw=true "ecommerce")
 
 ## Table of Contents
 
@@ -19,7 +22,7 @@ Micro service solution for simple e-commerce system, dengan menggunakan <strong>
 - **Go Languange**: Build fast, reliable, and efficient software at scale. [more](https://go.dev/)
 - **GraphQL API**: Get many resources in a single request and [more](https://graphql.org/)
 - **ORM - ENT**: Simple, yet powerful ORM for modeling and querying data. [more](https://entgo.io/)
-- **Route - Echo**: High performance, extensible, minimalist Go web framework[more](https://echo.labstack.com/)
+- **Route - Echo**: High performance, extensible, minimalist Go web framework [more](https://echo.labstack.com/)
 - **Dockerize**: Optimized for deployments using Docker
 - **Hot Reload - Air**: Live reload for Go apps. [more](https://github.com/cosmtrek/air)
 

@@ -7,8 +7,9 @@ make: *** No rule to make target 'all'.  Stop.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Mon Jun 06 15:56:56 2022
+# Make data base, printed on Mon Jun 06 16:17:28 2022
 
 # Variables
 
@@ -33,7 +34,7 @@ K6_PROMETHEUS_REMOTE_URL = http://localhost:9090/api/v1/write
 # environment
 LOCALAPPDATA = C:\Users\ibadi\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-081ce918-fe0a-4b4d-bb39-da22eff6e25d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a4500935-959f-47ff-9a71-586092821aa1-sock
 # environment
 VSCODE_CWD = C:\Users\ibadi\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -55,7 +56,7 @@ REACT_APP_ENV = local
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_38084_CHNYLBSJQYMKNRGK
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23384_MSCCTASOBBZHAOSC
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -117,7 +118,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 38084
+VSCODE_PID = 23384
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -277,9 +278,9 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
 
 # Directories
 
-# . (key c:/Users/ibadi/Documents/Ujian/github/ecommerce, mtime 1654505270): 25 files, no impossibilities.
+# . (key c:/Users/ibadi/Documents/Ujian/github/ecommerce, mtime 1654505870): 26 files, no impossibilities.
 
-# 25 files, no impossibilities in 1 directories.
+# 26 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -336,12 +337,12 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 31 / storage = 260 B / avg = 8 B
-# current buf: size = 8174 B / used = 260 B / count = 31 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 32 / storage = 271 B / avg = 8 B
+# current buf: size = 8174 B / used = 271 B / count = 32 / avg = 8 B
 
-# strcache performance: lookups = 40 / hit rate = 22%
+# strcache performance: lookups = 41 / hit rate = 21%
 # hash-table stats:
-# Load=31/8192=0%, Rehash=0, Collisions=0/40=0%
-# Finished Make data base on Mon Jun 06 15:56:56 2022
+# Load=32/8192=0%, Rehash=0, Collisions=0/41=0%
+# Finished Make data base on Mon Jun 06 16:17:28 2022
 
  
